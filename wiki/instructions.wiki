@@ -2,17 +2,17 @@
 
 The code to use is 
 
- graale_idmhd.f90
+*graale_idmhd.f90*
 
 To compile it, use the command
 
- compila
+*compila*
 
 You might have to modify it to change it for your compiler. g95 is assumed.
 
 To picture the results with matlab (and with small modifications for octave), use:
 
- mfig.m
+*mfig.m*
 
 == Self similar expanding solutions ==
 
