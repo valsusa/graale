@@ -1,3 +1,7 @@
+==General instructions==
+
+The codes work on windows, unix (all versions including linux) and pretty much on any thinkable standard general purpose operating systems. It requires no library and it is written in f90. No attempt was made to make it easy to use or to use fancy fortran 90 constructs. It is just a vanilla ideal MHD lagrangian code for research purposes.
+
 ==Shock code in cartesian geometry==
 
 The code to use is 
@@ -7,6 +11,10 @@ The code to use is
 To compile it, use the command
 
 *compila*
+
+To run it type: 
+
+_go_
 
 You might have to modify it to change it for your compiler. g95 is assumed.
 
@@ -33,6 +41,12 @@ The use of mhdLP is recommended.
 To compile it, use your favourite compiler. For example:
 
 _g95 -O2 mhdLP.f90_
+
+
+To run it then type (it might change depending on the compiler):
+
+_a.out_
+
 
 To look at the results there are three matlab files with slightly different output, the last one being in good for black and white publishing: 
 
