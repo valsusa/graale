@@ -35,6 +35,9 @@ To compile it, use your favourite compiler. For example:
 _g95 -O2 mhdLP.f90_
 
 To look at the results there are three matlab files with slightly different output, the last one being in good for black and white publishing: 
+
 *self.m*          
+
 *self2.m*         
+
 *self2_BW.m*
