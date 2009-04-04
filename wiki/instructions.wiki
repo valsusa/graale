@@ -21,13 +21,17 @@ The distributions includes the latests version:
 *mhdLP.f90*
 
 and some previous older versions: 
+
 mhd.f90         
+
 mhdL.f90      
+
 mhdLn.f90
 
 The use of mhdLP is recommended.
 
 To compile it, use your favourite compiler. For example:
+
 _g95 -O2 mhdLP.f90_
 
 To look at the results there are three matlab files with slightly different output, the last one being in good for black and white publishing: 
