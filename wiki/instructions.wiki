@@ -1,6 +1,8 @@
 ==General instructions==
 
-The codes work on windows, unix (all versions including linux) and pretty much on any thinkable standard general purpose operating systems. It requires no library and it is written in f90. You'll need a fortran 90 (not fortran 77) compiler.
+The codes work on windows, unix (all versions including linux) and pretty much on any thinkable standard general purpose operating systems. It requires no library and it is written in f90. You'll need a fortran 90 (not fortran 77) compiler. In developing the code, lf95 was used and f90 from Sun. But I tested it also on g95 (free) and intel ifort (not free). I imagine it would work on any compiler.
+
+Of course no guarantee is made that the code gives accurate results. Crazy results are much more fun!
 
 No attempt was made to make it easy to use or to use fancy fortran 90 constructs. It is just a vanilla ideal MHD lagrangian code for research purposes.
 
