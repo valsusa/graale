@@ -45,7 +45,9 @@ The use of mhdLP is recommended.
 To compile it, use your favourite compiler. For example:
 
 _g95 -O2 mhdLP.f90_
+
 _gfortran -O2 mhdLP.f90_
+
 _ifort -O2 mhdLP.f90_
 
 To run it then type (it might change depending on the compiler):
