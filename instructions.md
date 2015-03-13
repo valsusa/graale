@@ -1,0 +1,64 @@
+## General instructions ##
+
+The codes work on windows, unix (all versions including linux) and pretty much on any thinkable standard general purpose operating systems. It requires no library and it is written in f90. You'll need a fortran 90 (not fortran 77) compiler. In developing the code, lf95 was used and f90 from Sun. But I tested it also on g95 (free) and intel ifort (not free). I imagine it would work on any compiler.
+
+Of course no guarantee is made that the code gives accurate results. Crazy results are much more fun!
+
+No attempt was made to make it easy to use or to use fancy fortran 90 constructs. It is just a vanilla ideal MHD lagrangian code for research purposes.
+
+## Shock code in cartesian geometry ##
+
+The code to use is
+
+**graale\_idmhd.f90**
+
+To compile it, use the command
+
+**compila**
+
+To run it type:
+
+_go_
+
+You might have to modify it to change it for your compiler. g95 is assumed.
+
+To picture the results with matlab (and with small modifications for octave), use:
+
+**mfig.m**
+
+## Self similar expanding solutions ##
+
+The distributions includes the latests version:
+
+**mhdLP.f90**
+
+and some previous older versions:
+
+mhd.f90
+
+mhdL.f90
+
+mhdLn.f90
+
+The use of mhdLP is recommended.
+
+To compile it, use your favourite compiler. For example:
+
+_g95 -O2 mhdLP.f90_
+
+_gfortran -O2 mhdLP.f90_
+
+_ifort -O2 mhdLP.f90_
+
+To run it then type (it might change depending on the compiler):
+
+_a.out_
+
+
+To look at the results there are three matlab files with slightly different output, the last one being in good for black and white publishing:
+
+**self.m**
+
+**self2.m**
+
+**self2\_BW.m**
